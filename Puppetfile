@@ -36,3 +36,22 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+
+## my-boxen
+
+github "osx",              "1.6.0"
+github "keyremap4macbook", "1.0.5"
+github "alfred",           "1.1.6"
+github "chrome",           "1.1.1"
+github "appcleaner",       "1.0.0"
+github "iterm2",           "1.0.3"
+github "spectacle",        "1.0.0"
+github "intellij",         "1.4.0"
+
+github "macvim_kaoriya",   "1.0.0", :repo => "boxelly/puppet-macvim_kaoriya"
+github "java",             "1.1.10", :repo => "paxan/puppet-java"
+github "vmware_fusion",    "1.0.1", :repo => "am/puppet-vmware_fusion"
+github "python",           "1.0.1", :repo => "minatsu/puppet-python"
+github "pycharm",          "1.0.4", :repo => "minatsu/puppet-pycharm"
+
