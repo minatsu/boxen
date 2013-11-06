@@ -48,6 +48,7 @@ github "appcleaner",       "1.0.0"
 github "iterm2",           "1.0.3"
 github "spectacle",        "1.0.0"
 github "intellij",         "1.4.0"
+github "dropbox",          "1.1.2"
 
 github "macvim_kaoriya",   "1.0.0", :repo => "boxelly/puppet-macvim_kaoriya"
 github "java",             "1.1.10", :repo => "paxan/puppet-java"

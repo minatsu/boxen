@@ -55,6 +55,9 @@ class people::minatsu {
     version => '132.839'
   }
 
+  # dropbox
+  include dropbox
+
   # macvim-kaoriya
   include macvim_kaoriya
 
