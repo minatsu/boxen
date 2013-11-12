@@ -82,5 +82,11 @@ class people::minatsu {
     source   => 'http://joel.barriere.pagesperso-orange.fr/dl/109/OnyX.dmg',
   }
 
+  # ms office
+  package { 'msoffice':
+    provider => 'appdmg',
+    source   => '/tmp/OFFICE_STD_JPN_1400_100825.DMG',
+  }
+
 }
 
