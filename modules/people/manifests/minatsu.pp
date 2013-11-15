@@ -88,5 +88,11 @@ class people::minatsu {
     source   => '/tmp/OFFICE_STD_JPN_1400_100825.DMG',
   }
 
+  # google ime
+  package { 'GoogleJapaneseInput':
+   provider => pkgdmg,
+    source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+  }
+
 }
 
