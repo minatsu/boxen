@@ -16,6 +16,7 @@ class people::minatsu {
       'coreutils',
       'wget',
       'nkf',
+      'unar',
       'graphviz'
     ]:
   }
