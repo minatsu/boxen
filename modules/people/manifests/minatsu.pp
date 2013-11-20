@@ -91,9 +91,14 @@ class people::minatsu {
 
   # google ime
   package { 'GoogleJapaneseInput':
-   provider => pkgdmg,
-    source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+    provider => 'pkgdmg',
+    source => 'http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg',
   }
 
+  # chromium
+  package { 'chromium':
+    provider => 'compressed_app',
+    source => 'https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/236160/chrome-mac.zip',
+  }
 }
 
