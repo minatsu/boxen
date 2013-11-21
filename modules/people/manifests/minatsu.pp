@@ -100,5 +100,12 @@ class people::minatsu {
     provider => 'compressed_app',
     source => 'https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/236160/chrome-mac.zip',
   }
+
+  # xtrafinder
+  package { 'xtrafinder':
+    provider => 'pkgdmg',
+    source => 'http://www.trankynam.com/xtrafinder/downloads/XtraFinder.dmg',
+  }
+
 }
 
