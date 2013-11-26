@@ -17,7 +17,8 @@ class people::minatsu {
       'wget',
       'nkf',
       'unar',
-      'graphviz'
+      'graphviz',
+      'imagemagick'
     ]:
   }
   package {
@@ -85,7 +86,7 @@ class people::minatsu {
 
   # ms office
   package { 'msoffice':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => '/tmp/OFFICE_STD_JPN_1400_100825.DMG',
   }
 
