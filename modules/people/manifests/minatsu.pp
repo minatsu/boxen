@@ -18,7 +18,9 @@ class people::minatsu {
       'nkf',
       'unar',
       'graphviz',
-      'imagemagick'
+      'ufraw',
+      'imagemagick',
+      'exiftool'
     ]:
   }
   package {
