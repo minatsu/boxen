@@ -110,5 +110,11 @@ class people::minatsu {
     source => 'http://www.trankynam.com/xtrafinder/downloads/XtraFinder.dmg',
   }
 
+  # itsycal
+  package { 'itsycal':
+    provider => 'compressed_app',
+    source => 'https://s3.amazonaws.com/itsycal/Itsycal.zip',
+  }
+
 }
 
