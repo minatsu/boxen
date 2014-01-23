@@ -116,5 +116,11 @@ class people::minatsu {
     source => 'https://s3.amazonaws.com/itsycal/Itsycal.zip',
   }
 
+  # MachOView
+  package { 'machoview':
+    provider => 'appdmg',
+    source => 'http://jaist.dl.sourceforge.net/project/machoview/MachOView-2.4.9000.dmg',
+  }
+
 }
 
