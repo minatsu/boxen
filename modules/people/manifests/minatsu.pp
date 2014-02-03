@@ -122,5 +122,10 @@ class people::minatsu {
     source => 'http://jaist.dl.sourceforge.net/project/machoview/MachOView-2.4.9000.dmg',
   }
 
+  boxen::osx_defaults { 'xcode fixed copyright':
+    key => 'AppleLocale',
+    domain => 'com.apple.dt.Xcode',
+    value  => 'en_US',
+  }
 }
 
