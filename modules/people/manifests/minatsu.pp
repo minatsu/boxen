@@ -127,5 +127,11 @@ class people::minatsu {
     domain => 'com.apple.dt.Xcode',
     value  => 'en_US',
   }
+
+  # AppCode
+  package { 'appcode':
+    provider => 'appdmg',
+    source => 'http://download-ln.jetbrains.com/objc/AppCode-2.5.4a.dmg',
+  }
 }
 
