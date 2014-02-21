@@ -20,7 +20,8 @@ class people::minatsu {
       'graphviz',
       'ufraw',
       'imagemagick',
-      'exiftool'
+      'exiftool',
+      'nmap'
     ]:
   }
   package {
