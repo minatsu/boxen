@@ -67,7 +67,11 @@ class people::minatsu {
   include macvim_kaoriya
 
   # java
-  include java
+  #include java
+  package { 'java':
+    provider => 'pkgdmg',
+    source   => '/tmp/jdk-7u51-macosx-x64.dmg',
+  }
 
   # vmware-fusion
   include vmware_fusion
