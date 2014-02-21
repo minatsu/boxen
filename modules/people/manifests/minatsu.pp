@@ -133,5 +133,12 @@ class people::minatsu {
     provider => 'appdmg',
     source => 'http://download-ln.jetbrains.com/objc/AppCode-2.5.4a.dmg',
   }
+
+  # desquander
+  package { 'desquander':
+    provider => 'compressed_app',
+    source => 'http://dl.dropbox.com/u/18000273/CocoaApps/Desquander1.1.zip',
+  }
+
 }
 
