@@ -145,11 +145,5 @@ class people::minatsu {
     source => 'http://dl.dropbox.com/u/18000273/CocoaApps/Desquander1.1.zip',
   }
 
-  # astah
-  package { 'astah':
-    provider => 'pkgdmg',
-    source => 'http://members.change-vision.com/files/_UcCXzDI4ksvoTKM2Bh2nG7jccJDJWIXw/astah_community/6_8_0/astah-community-6_8_0-d254c5-MacOs.dmg',
-  }
-
 }
 
