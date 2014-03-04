@@ -149,6 +149,11 @@ GITHUBTARBALL
     python (1.0.1)
 
 GITHUBTARBALL
+  remote: morgante/puppet-docker
+  specs:
+    docker (1.0.3)
+
+GITHUBTARBALL
   remote: paxan/puppet-java
   specs:
     java (1.1.10)
@@ -169,6 +174,7 @@ DEPENDENCIES
   boxen (= 3.3.4)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
+  docker (= 1.0.3)
   dropbox (= 1.1.2)
   foreman (= 1.0.0)
   gcc (= 2.0.1)

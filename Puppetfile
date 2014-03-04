@@ -74,4 +74,5 @@ github "java",             "1.1.10", :repo => "paxan/puppet-java"
 github "vmware_fusion",    "1.0.1", :repo => "am/puppet-vmware_fusion"
 github "python",           "1.0.1", :repo => "minatsu/puppet-python"
 github "pycharm",          "1.0.4", :repo => "minatsu/puppet-pycharm"
+github "docker",           "1.0.3", :repo => "morgante/puppet-docker"
 

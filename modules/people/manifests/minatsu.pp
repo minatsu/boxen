@@ -68,10 +68,10 @@ class people::minatsu {
 
   # java
   #include java
-  package { 'java':
-    provider => 'pkgdmg',
-    source   => '/tmp/jdk-7u51-macosx-x64.dmg',
-  }
+  #package { 'java':
+  #  provider => 'pkgdmg',
+  #  source   => '/tmp/jdk-7u51-macosx-x64.dmg',
+  #}
 
   # vmware-fusion
   include vmware_fusion
@@ -92,10 +92,10 @@ class people::minatsu {
   }
 
   # ms office
-  package { 'msoffice':
-    provider => 'pkgdmg',
-    source   => '/tmp/OFFICE_STD_JPN_1400_100825.DMG',
-  }
+  #package { 'msoffice':
+  #  provider => 'pkgdmg',
+  #  source   => '/tmp/OFFICE_STD_JPN_1400_100825.DMG',
+  #}
 
   # google ime
   package { 'GoogleJapaneseInput':
@@ -145,5 +145,13 @@ class people::minatsu {
     source => 'http://dl.dropbox.com/u/18000273/CocoaApps/Desquander1.1.zip',
   }
 
+  # virtualbox
+  package { 'virtualbox':
+    provider => 'pkgdmg',
+    source => 'http://download.virtualbox.org/virtualbox/4.3.8/VirtualBox-4.3.8-92456-OSX.dmg',
+  }
+
+  # docker
+  include docker
 }
 
